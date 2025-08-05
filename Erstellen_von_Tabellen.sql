@@ -14,7 +14,8 @@ CREATE TABLE Exemplar
   Signatur varchar(64) PRIMARY KEY,
   Standort varchar(64),
   Zustand varchar(64),
-  Mediennummer INT FOREIGN KEY REFERENCES Medium(Mediennummer)
+  Mediennummer INT,
+  FOREIGN KEY (Signatur) REFERENCES Medium(Mediennummer)
 );
 
 CREATE TABLE Kunstler
@@ -36,7 +37,7 @@ CREATE TABLE Nutzer
   PLZ varchar(64),
   Ort varchar(64),
   Telefonnummer varchar(64),
-  E-Mail varchar(64)
+  EMail varchar(64)
 );
 
 CREATE TABLE Mitarbeitende
