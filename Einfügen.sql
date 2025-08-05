@@ -19,7 +19,7 @@ INSERT INTO Kunstler (KunstlerId, Vorname, Nachname, Geburtsjahr, Nationalitat) 
 (204, 'Antoine de', 'Saint-Exupéry', 1900, 'Französisch'),
 (205, 'Leonardo', 'da Vinci', 1452, 'Italienisch');
 
-INSERT INTO Nutzer (NutzerID, Vorname, Nachname, Geburtsdatum, Straße, PLZ, Ort, Telefonnummer, E_Mail) VALUES
+INSERT INTO Nutzer (NutzerID, Vorname, Nachname, Geburtsdatum, Straße, PLZ, Ort, Telefonnummer, EMail) VALUES
 (301, 'Anna', 'Müller', 1985, 'Hauptstraße 10', '70173', 'Stuttgart', '0711123456', 'anna.mueller@example.com'),
 (302, 'Max', 'Schmidt', 1992, 'Blumenweg 5', '80331', 'München', '0899876543', 'max.schmidt@example.com'),
 (303, 'Lena', 'Meier', 1970, 'Seestraße 22', '10115', 'Berlin', '0302345678', 'lena.meier@example.com'),
