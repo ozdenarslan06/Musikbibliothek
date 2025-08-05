@@ -1,0 +1,12 @@
+-- Projection
+SELECT Titel, Medientyp FROM Medium 
+
+-- Selektion
+SELECT * FROM Nutzer where ort = 'Stuttgart' 
+
+-- Join, Mediums von Leonargo da Vinci
+SELECT m.Titel FROM 
+Medium m
+JOIN Kunstler_Medium km on km.Mediennummer = m.Mediennummer
+JOIN Kunstler k ON k.KunstlerId = km.KunstlerId
+where k.Vorname = 'Leonardo' AND k.Nachname = 'da Vinci'
